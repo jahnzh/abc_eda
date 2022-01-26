@@ -18,7 +18,7 @@ The script takes a directory with adjacency matrices in csv format as an input a
 The csv file has 3 columns "Parm1", "Parm2" and "weight" where "Parm1" and "Parm2" correspond to vertices and "weight" to the weights of edges inside the network.
 
 ```bash
-python hybrid_bee_mds.py <input_dir> <output_dir> <number_of_cpus>
+python hybrid_bee_mwds.py <input_dir> <output_dir> <number_of_cpus>
 ```
 
 ### Algorithm Parameters
